@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.main{
+    background-color: #17171E;
+}
+
+/* Header Section start */
+.header_section{
+    background-image: url('images/Header_bg_blur.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: auto;
+    opacity: .9;
+}
+
+.header_background{
+    background-image: url('images/Header_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
+}
+/* Menu section */
+.header-menu{   
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;    
+}
+
+
+.logo{
+    margin: 18px 100px;
+
+}
+.header_menu_left 
+ul 
+li{
+    display: inline-block;
+    color: white;
+    padding: 30px 40px;
+}
+
+
+ul 
+li 
+a{
+    color: white !important;
+    font-size: 16px;
+}
+.header_menu_right ul li{
+    display: inline-block;
+    color: white;
+    padding: 40px 30px;
+}
+
+/* About section */
+.about_section{
+    width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+.about{
+    margin: 30px 100px;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+/* food Quality section */
+
+/* .Quality_section{
+    background-image: url('/images/foodbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 1400px;
+
+    margin: auto;
+    padding-bottom: 200px;
+} */
+.Quality_section{
+    position: relative;
+
+}
+.food-1{
+    position: absolute;
+    right: 0;
+}
+.food-2{
+    position: absolute;
+    right: 0px;
+    top: 45%;
+}
+.food-3{
+    position: absolute;
+    top:61%
+}
+.enjoy{
+    background-image: url('/images/service.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 100px;
+    padding-top: 250px;
+    padding-bottom: 200px;
+}
+.enjoy_food{
+    width: 650px;
+    line-height: 1.6;
+    padding: 50px;
+    border: 5px solid #FE9000;
+    margin: auto;   
+ 
+    margin-bottom: 100px; 
+}
+
+
+/* Food menu */
+.food-menu{
+
+    height: 800px;
+    margin: auto;
+    
+}
+.menu-1{
+    width: 400px;
+    border: 2px solid red;  
+    margin: 20px;  
+}
+
+/* Best meal */
+.bestMeal{
+    background-color: #FE9000;
+    height: 520px;
+    position: relative;
+}
+.BestFoodPhoto{
+    position: absolute;
+    top: -45px;
+}
+.footer_section{
+    text-align: center;
+}
+.footer_section ul li{
+    text-align: center;
+}
+.footer_section ul{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-left: 100px;
+}
+.social{
+    text-align: center;
+    margin: auto;
+}
+.social img{
+    padding: 15px;
+}
